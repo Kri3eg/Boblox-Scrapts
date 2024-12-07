@@ -8,9 +8,11 @@ local ImageButton = Instance.new("ImageButton")
 local UICorner = Instance.new("UICorner")
 local Frame = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local INVIS = Instance.new("TextButton")
 local IY = Instance.new("TextButton")
 local SYSTEMBROKEN = Instance.new("TextButton")
-local INVIS = Instance.new("TextButton")
+local F3X = Instance.new("TextButton")
 
 --Properties:
 
@@ -32,28 +34,52 @@ Frame.Parent = JuniorGamer
 Frame.BackgroundColor3 = Color3.fromRGB(83, 83, 83)
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.732193708, 0, 0.101626016, 0)
-Frame.Size = UDim2.new(0, 167, 0, 366)
+Frame.Position = UDim2.new(0.31908831, 0, 0.101626016, 0)
+Frame.Size = UDim2.new(0, 602, 0, 366)
 Frame.Visible = false
 
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(134, 134, 134)
 TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
-TextLabel.Size = UDim2.new(0, 167, 0, 25)
+TextLabel.Size = UDim2.new(0, 601, 0, 25)
 TextLabel.Font = Enum.Font.SourceSansBold
 TextLabel.Text = "NIGGA HUB 2024"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
 TextLabel.TextWrapped = true
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+ScrollingFrame.Parent = Frame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 0.850
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0, 0, 0.0683060139, 0)
+ScrollingFrame.Size = UDim2.new(0, 601, 0, 341)
+
+INVIS.Name = "INVIS"
+INVIS.Parent = ScrollingFrame
+INVIS.BackgroundColor3 = Color3.fromRGB(134, 134, 134)
+INVIS.BorderColor3 = Color3.fromRGB(0, 0, 0)
+INVIS.BorderSizePixel = 0
+INVIS.Position = UDim2.new(0.0419161692, 0, 0.153028682, 0)
+INVIS.Size = UDim2.new(0, 152, 0, 34)
+INVIS.Font = Enum.Font.SourceSans
+INVIS.Text = "FE INVISIBLE"
+INVIS.TextColor3 = Color3.fromRGB(255, 255, 255)
+INVIS.TextScaled = true
+INVIS.TextSize = 14.000
+INVIS.TextWrapped = true
 
 IY.Name = "IY"
-IY.Parent = Frame
+IY.Parent = ScrollingFrame
 IY.BackgroundColor3 = Color3.fromRGB(134, 134, 134)
 IY.BorderColor3 = Color3.fromRGB(0, 0, 0)
 IY.BorderSizePixel = 0
-IY.Position = UDim2.new(0.0419161692, 0, 0.150273219, 0)
+IY.Position = UDim2.new(0.0419161692, 0, 0.0215827338, 0)
 IY.Size = UDim2.new(0, 152, 0, 34)
 IY.Font = Enum.Font.SourceSans
 IY.Text = "IY"
@@ -63,11 +89,11 @@ IY.TextSize = 14.000
 IY.TextWrapped = true
 
 SYSTEMBROKEN.Name = "SYSTEMBROKEN"
-SYSTEMBROKEN.Parent = Frame
+SYSTEMBROKEN.Parent = ScrollingFrame
 SYSTEMBROKEN.BackgroundColor3 = Color3.fromRGB(134, 134, 134)
 SYSTEMBROKEN.BorderColor3 = Color3.fromRGB(0, 0, 0)
 SYSTEMBROKEN.BorderSizePixel = 0
-SYSTEMBROKEN.Position = UDim2.new(0.0419161692, 0, 0.27868852, 0)
+SYSTEMBROKEN.Position = UDim2.new(0.0419161692, 0, 0.0871004611, 0)
 SYSTEMBROKEN.Size = UDim2.new(0, 152, 0, 34)
 SYSTEMBROKEN.Font = Enum.Font.SourceSans
 SYSTEMBROKEN.Text = "FE SYSTEM BROKEN"
@@ -76,23 +102,23 @@ SYSTEMBROKEN.TextScaled = true
 SYSTEMBROKEN.TextSize = 14.000
 SYSTEMBROKEN.TextWrapped = true
 
-INVIS.Name = "INVIS"
-INVIS.Parent = Frame
-INVIS.BackgroundColor3 = Color3.fromRGB(134, 134, 134)
-INVIS.BorderColor3 = Color3.fromRGB(0, 0, 0)
-INVIS.BorderSizePixel = 0
-INVIS.Position = UDim2.new(0.0419161692, 0, 0.407103837, 0)
-INVIS.Size = UDim2.new(0, 152, 0, 34)
-INVIS.Font = Enum.Font.SourceSans
-INVIS.Text = "FE INVISIBLE"
-INVIS.TextColor3 = Color3.fromRGB(255, 255, 255)
-INVIS.TextScaled = true
-INVIS.TextSize = 14.000
-INVIS.TextWrapped = true
+F3X.Name = "F3X"
+F3X.Parent = ScrollingFrame
+F3X.BackgroundColor3 = Color3.fromRGB(134, 134, 134)
+F3X.BorderColor3 = Color3.fromRGB(0, 0, 0)
+F3X.BorderSizePixel = 0
+F3X.Position = UDim2.new(0.313130856, 0, 0.0199371297, 0)
+F3X.Size = UDim2.new(0, 152, 0, 34)
+F3X.Font = Enum.Font.SourceSans
+F3X.Text = "F3X"
+F3X.TextColor3 = Color3.fromRGB(255, 255, 255)
+F3X.TextScaled = true
+F3X.TextSize = 14.000
+F3X.TextWrapped = true
 
 -- Scripts:
 
-local function PDSDUU_fake_script() -- ImageButton.LocalScript 
+local function LNDKIOK_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local button = script.Parent
@@ -107,38 +133,8 @@ local function PDSDUU_fake_script() -- ImageButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PDSDUU_fake_script)()
-local function XCTV_fake_script() -- IY.LocalScript 
-	local script = Instance.new('LocalScript', IY)
-
-	local button = script.Parent
-	
-	button.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
-	end)
-end
-coroutine.wrap(XCTV_fake_script)()
-local function IQACU_fake_script() -- SYSTEMBROKEN.LocalScript 
-	local script = Instance.new('LocalScript', SYSTEMBROKEN)
-
-	local button = script.Parent
-	
-	button.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
-	end)
-end
-coroutine.wrap(IQACU_fake_script)()
-local function GTVTJY_fake_script() -- INVIS.LocalScript 
-	local script = Instance.new('LocalScript', INVIS)
-
-	local button = script.Parent
-	
-	button.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://pastebin.com/raw/c3vgfjhn"))()
-	end)
-end
-coroutine.wrap(GTVTJY_fake_script)()
-local function RQRJDT_fake_script() -- Frame.Dragify 
+coroutine.wrap(LNDKIOK_fake_script)()
+local function AMISJW_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -181,4 +177,44 @@ local function RQRJDT_fake_script() -- Frame.Dragify
 		end
 	end)
 end
-coroutine.wrap(RQRJDT_fake_script)()
+coroutine.wrap(AMISJW_fake_script)()
+local function IANVFMF_fake_script() -- INVIS.LocalScript 
+	local script = Instance.new('LocalScript', INVIS)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/c3vgfjhn"))()
+	end)
+end
+coroutine.wrap(IANVFMF_fake_script)()
+local function VXKZ_fake_script() -- IY.LocalScript 
+	local script = Instance.new('LocalScript', IY)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+	end)
+end
+coroutine.wrap(VXKZ_fake_script)()
+local function DYMVATI_fake_script() -- SYSTEMBROKEN.LocalScript 
+	local script = Instance.new('LocalScript', SYSTEMBROKEN)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+	end)
+end
+coroutine.wrap(DYMVATI_fake_script)()
+local function ONFLAQ_fake_script() -- F3X.LocalScript 
+	local script = Instance.new('LocalScript', F3X)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:GetObjects("rbxassetid://4666214817")[1].Source)()
+	end)
+end
+coroutine.wrap(ONFLAQ_fake_script)()
