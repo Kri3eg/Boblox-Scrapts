@@ -1,7 +1,4 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
+editado2
 
 local JuniorGamer = Instance.new("ScreenGui")
 local ImageButton = Instance.new("ImageButton")
@@ -118,7 +115,7 @@ F3X.TextWrapped = true
 
 -- Scripts:
 
-local function LNDKIOK_fake_script() -- ImageButton.LocalScript 
+local function NFOHS_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local button = script.Parent
@@ -133,8 +130,8 @@ local function LNDKIOK_fake_script() -- ImageButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LNDKIOK_fake_script)()
-local function AMISJW_fake_script() -- Frame.Dragify 
+coroutine.wrap(NFOHS_fake_script)()
+local function UNTCD_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -177,8 +174,8 @@ local function AMISJW_fake_script() -- Frame.Dragify
 		end
 	end)
 end
-coroutine.wrap(AMISJW_fake_script)()
-local function IANVFMF_fake_script() -- INVIS.LocalScript 
+coroutine.wrap(UNTCD_fake_script)()
+local function OLXYLQ_fake_script() -- INVIS.LocalScript 
 	local script = Instance.new('LocalScript', INVIS)
 
 	local button = script.Parent
@@ -187,8 +184,8 @@ local function IANVFMF_fake_script() -- INVIS.LocalScript
 		loadstring(game:HttpGet("https://pastebin.com/raw/c3vgfjhn"))()
 	end)
 end
-coroutine.wrap(IANVFMF_fake_script)()
-local function VXKZ_fake_script() -- IY.LocalScript 
+coroutine.wrap(OLXYLQ_fake_script)()
+local function MAAU_fake_script() -- IY.LocalScript 
 	local script = Instance.new('LocalScript', IY)
 
 	local button = script.Parent
@@ -197,8 +194,8 @@ local function VXKZ_fake_script() -- IY.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 	end)
 end
-coroutine.wrap(VXKZ_fake_script)()
-local function DYMVATI_fake_script() -- SYSTEMBROKEN.LocalScript 
+coroutine.wrap(MAAU_fake_script)()
+local function FKIX_fake_script() -- SYSTEMBROKEN.LocalScript 
 	local script = Instance.new('LocalScript', SYSTEMBROKEN)
 
 	local button = script.Parent
@@ -207,14 +204,14 @@ local function DYMVATI_fake_script() -- SYSTEMBROKEN.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
 	end)
 end
-coroutine.wrap(DYMVATI_fake_script)()
-local function ONFLAQ_fake_script() -- F3X.LocalScript 
+coroutine.wrap(FKIX_fake_script)()
+local function VBBD_fake_script() -- F3X.LocalScript 
 	local script = Instance.new('LocalScript', F3X)
 
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
-		loadstring(game:GetObjects("rbxassetid://4666214817")[1].Source)()
+		loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
 	end)
 end
-coroutine.wrap(ONFLAQ_fake_script)()
+coroutine.wrap(VBBD_fake_script)()
