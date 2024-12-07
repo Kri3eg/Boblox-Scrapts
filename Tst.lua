@@ -1,4 +1,4 @@
-editado2
+-- // editado2
 
 local JuniorGamer = Instance.new("ScreenGui")
 local ImageButton = Instance.new("ImageButton")
